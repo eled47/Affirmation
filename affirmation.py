@@ -3,11 +3,11 @@ import random, schedule, time
 from twilio.rest import Client
 
 QUOTES = [
-    "You are a king",
-    "My imagination is vivid and powerful",
-    "Seeing and understanding the big picture comes naturally to me",
-    "I am connected to the wisdom of the Universe",
-    "I am able to see and act in alignment with my divine purpose"
+    "I am love. I am purpose. I was made with divine intention",
+    "I don’t sweat the small stuff",
+    "I can. I will. End of story",
+    "I feed my spirit. I train my body. I focus my mind. It’s my time",
+    "I am in charge of how I feel and today I am choosing happiness"
 ]
 
 
