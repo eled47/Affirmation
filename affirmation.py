@@ -13,8 +13,8 @@ QUOTES = [
 
 def send_message(quotes_list=QUOTES):
 
-    account = 'AC6f2e1e50d879fdf510e86edcc16c9f3c'
-    token = 'f5f0629ea6c74c891652a072e5d79f83'
+    account = 'ACCOUNT'
+    token = 'TOKEN'
     client = Client(account, token)
     quote = quotes_list[random.randint(0, len(quotes_list)-1)]
 
