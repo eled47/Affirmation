@@ -18,8 +18,8 @@ def send_message(quotes_list=QUOTES):
     client = Client(account, token)
     quote = quotes_list[random.randint(0, len(quotes_list)-1)]
 
-    client.messages.create(to='+14235809433',
-                           from_='+16087955604',
+    client.messages.create(to='personal_phone',
+                           from_='account_phone',
                            body=quote
                            )
 
